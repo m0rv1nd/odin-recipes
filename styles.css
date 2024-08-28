@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(39, 39, 43);
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: #f58442;
+    font-size: 50px;
+}
+
+.recipes, 
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
