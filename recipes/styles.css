@@ -1,32 +1,39 @@
 * {
-    background-color: rgb(39, 39, 43);
     font-family: Arial, Verdana, sans-serif;
-    width: 600px;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 39, 43);
 }
 
 h1 {
-    text-align: left;
     color: #f58442;
     font-size: 50px;
+    ;
 }
 
 h2 {
     color: hsl(21, 56%, 72%);
+    margin: 10px 0 10px 0;
 }
 
 h3 {
     color: hsl(21, 40%, 80%);
+    margin: 10px 0 5px 0;
 }
 
-#description {
+.description {
     text-align: justify;
 }
 
-#description,
+.description,
 ul,
 ol {
     color: white;
+    margin-bottom: 10px;
 }
 
 ul li::marker {
@@ -40,6 +47,47 @@ ol li::marker {
 img {
     width: 600px;
     height: auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 30px auto 0 auto;
+    padding: 50px 100px;
+    background: hsl(240, 5%, 15%);
+    border: 1px solid hsl(240, 10%, 10%);
+}
+
+.description-container {
+    width: 600px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.ingredients {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin-top: 58px;
+}
+
+.main-page
+ {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(39, 39, 43);
+    border: 1px solid hsl(240, 10%, 10%);
+    width: 150px;
+}
+
+.main-page a:link,
+.main-page a:visited,
+.main-page a:hover,
+.main-page a:active {
+    text-decoration: none;
+    color: hsl(21, 56%, 72%);
+    font-weight: 700;
+    font-size: 24px;
 }
 
 
